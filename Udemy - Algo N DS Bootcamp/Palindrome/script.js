@@ -2,9 +2,9 @@
 // Palindromes are strings that form the same word if it is reversed.
 
 function palindrome(str) {
-  var reversed = '';
+  let reversed = '';
 
-  for (var char of str) {
+  for (let char of str) {
     reversed = char + reversed;
   }
 
